@@ -1,13 +1,14 @@
 package com.denis.kisina.practice;
 
 import java.util.HashMap;
+import java.util.LinkedHashSet;
 
 public class LengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
         // create data structure HashMap
         // interate through the string as you check if it contains say the i
         //
-
+//        LinkedHashSet set
         if (s == "" || s.length() == 0) {
             return 0;
         }
@@ -18,7 +19,6 @@ public class LengthOfLongestSubstring {
         HashMap<Character, Integer> map = new HashMap<>();
 
         int count = 0, max = 0, j = 0, i = 0;
-
 
         while (j < s.length()) {
 
@@ -32,20 +32,14 @@ public class LengthOfLongestSubstring {
                     i++;
                     max = count > max ? count : max;
                 } else {
-//                    j = i;
                     max = count > max ? count : max;
-//                    count = 0;
                     map = new HashMap<>();
                     break;
                 }
-
-
             }
             count = 0;
             j++;
         }
-
-
         return max;
     }
 }
