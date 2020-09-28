@@ -1,4 +1,4 @@
-package com.denis.kisina.practice.facebook.arraysandstrings;
+package com.denis.kisina.practice.amazon.arraysandstrings;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -75,7 +75,7 @@ public class StringToInteger {
             i = 0;
         }
 
-        //chek number and build it up
+        //check number and build it up
         while (i < newString.length() && set.contains(newString.charAt(i))) {
             // check max number
             if (result > MAX_INT / 10) {

@@ -1,4 +1,4 @@
-package com.denis.kisina.practice.facebook.arraysandstrings;
+package com.denis.kisina.practice.amazon.arraysandstrings;
 
 import java.util.HashSet;
 import java.util.Set;

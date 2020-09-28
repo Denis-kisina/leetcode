@@ -1,11 +1,12 @@
 package com.denis.kisina.practice.facebook.arraysandstrings;
 
+import com.denis.kisina.practice.amazon.arraysandstrings.StringToInteger;
 import junit.framework.TestCase;
 import org.junit.Assert;
 
 public class StringToIntegerTest extends TestCase {
 
-    StringToInteger  stringToInteger = new StringToInteger();
+    StringToInteger stringToInteger = new StringToInteger();
 
     public void testMyAtoi() {
         String input = "42";
