@@ -1,4 +1,4 @@
-package com.denis.kisina.practice.facebook.arraysandstrings;
+package com.denis.kisina.practice.facebook.arrays_and_strings;
 
 import junit.framework.TestCase;
 import org.junit.Assert;

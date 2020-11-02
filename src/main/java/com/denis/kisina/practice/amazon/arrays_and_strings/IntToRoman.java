@@ -1,4 +1,4 @@
-package com.denis.kisina.practice.amazon.arraysandstrings;
+package com.denis.kisina.practice.amazon.arrays_and_strings;
 
 public class IntToRoman {
     /*

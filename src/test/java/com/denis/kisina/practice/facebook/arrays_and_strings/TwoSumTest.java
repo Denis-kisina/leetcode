@@ -1,6 +1,6 @@
-package com.denis.kisina.practice.facebook.arraysandstrings;
+package com.denis.kisina.practice.facebook.arrays_and_strings;
 
-import com.denis.kisina.practice.amazon.arraysandstrings.TwoSum;
+import com.denis.kisina.practice.amazon.arrays_and_strings.TwoSum;
 import junit.framework.TestCase;
 
 import java.util.Arrays;

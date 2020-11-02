@@ -1,6 +1,6 @@
-package com.denis.kisina.practice.facebook.arraysandstrings;
+package com.denis.kisina.practice.facebook.arrays_and_strings;
 
-import com.denis.kisina.practice.amazon.arraysandstrings.LengthOfLongestSubstring;
+import com.denis.kisina.practice.amazon.arrays_and_strings.LengthOfLongestSubstring;
 import junit.framework.TestCase;
 import org.junit.Assert;
 

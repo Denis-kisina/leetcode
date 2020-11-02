@@ -1,6 +1,5 @@
-package com.denis.kisina.practice;
+package com.denis.kisina.practice.facebook.strings;
 
-import java.io.*;
 import java.util.*;
 // Add any extra import statements you may need here
 

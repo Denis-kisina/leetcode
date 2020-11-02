@@ -1,4 +1,4 @@
-package com.denis.kisina.practice.facebook.arraysandstrings;
+package com.denis.kisina.practice.facebook.arrays_and_strings;
 
 /*
     Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.

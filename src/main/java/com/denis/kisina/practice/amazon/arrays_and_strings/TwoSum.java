@@ -1,6 +1,5 @@
-package com.denis.kisina.practice.amazon.arraysandstrings;
+package com.denis.kisina.practice.amazon.arrays_and_strings;
 
-import java.util.ArrayList;
 import java.util.*;
 
 public class TwoSum {
