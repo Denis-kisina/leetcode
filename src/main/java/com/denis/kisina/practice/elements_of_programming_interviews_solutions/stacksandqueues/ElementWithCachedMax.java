@@ -1,4 +1,4 @@
-package com.denis.kisina.practice.datastructures_implementation.stack_with_max_api;
+package com.denis.kisina.practice.elements_of_programming_interviews_solutions.stacksandqueues;
 
 public class ElementWithCachedMax {
     public Integer element;
