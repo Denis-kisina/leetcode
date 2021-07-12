@@ -22,12 +22,11 @@ public class IsPowerOfTwo {
 //    }
 
     /**
-     *
      * @param x bit wise implementation
      * @return
      */
-    public static boolean isPowerOfTwo(int x){
-        return (x != 0) && ((x & x-1) == 0);
+    public static boolean isPowerOfTwo(int x) {
+        return (x != 0) && ((x & x - 1) == 0);
     }
 
 }

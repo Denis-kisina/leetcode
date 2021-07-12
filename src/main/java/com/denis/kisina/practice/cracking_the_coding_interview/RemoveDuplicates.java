@@ -14,6 +14,7 @@ class Node {
     public Node(int value) {
         this(value, null);
     }
+
     public Node(int value, Node next) {
         this.value = value;
         this.next = next;
@@ -25,7 +26,7 @@ class Node {
 
     public void print() {
         Node last = next;
-        while(last != null){
+        while (last != null) {
             System.out.print(last.value + "->");
             last = last.next;
         }
@@ -37,7 +38,7 @@ class Node {
         Node newLink = new Node(val);
         if (isEmpty()) {
             next = newLink;
-        }else{
+        } else {
             Node last = next;
             while (last.next != null) {
                 last = last.next;
@@ -68,7 +69,7 @@ class Node {
 class LinkedList {
     private Node first;
 
-    public LinkedList() {
+    LinkedList() {
         this.first = null;
     }
 
@@ -82,7 +83,7 @@ class LinkedList {
         Node newLink = new Node(val);
         if (isEmpty()) {
             first = newLink;
-        }else{
+        } else {
             Node last = first;
             while (last.next != null) {
                 last = last.next;
@@ -90,17 +91,18 @@ class LinkedList {
             last.next = newLink;
         }
     }
+
     public void printList() {
         System.out.print("List (first-->last):");
         Node curr = first;
-        while(first != null){
+        while (first != null) {
             first.print();
             first = first.next;
         }
     }
 
 
-    public boolean isEmpty(){
+    public boolean isEmpty() {
         return first == null;
     }
 }
@@ -127,7 +129,6 @@ public class RemoveDuplicates {
         node.addNodeLast(1
         );
         node.addNodeLast(3);
-
 
 
         node.print();
